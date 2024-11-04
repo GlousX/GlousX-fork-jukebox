@@ -22,7 +22,7 @@ class BedrockServer(private val bindAddress: InetSocketAddress, private val serv
     private lateinit var channel: Channel
 
     companion object {
-        val BEDROCK_CODEC: BedrockCodec = Bedrock_v712.CODEC
+        val BEDROCK_CODEC: BedrockCodec = Bedrock_v748.CODEC
     }
 
     private val encodingSettings = EncodingSettings.builder()
